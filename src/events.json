@@ -1,0 +1,114 @@
+[
+	{
+		"properties": {
+			"character": 0
+		},
+		"time": 0,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 1
+		},
+		"time": 11.098265895953755,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 0
+		},
+		"time": 22.196531791907507,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 1
+		},
+		"time": 33.294797687861262,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 0
+		},
+		"time": 45.780346820809228,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 1
+		},
+		"time": 52.716763005780322,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 0
+		},
+		"time": 56.87861271676298,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 1
+		},
+		"time": 63.815028901734074,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 0
+		},
+		"time": 91.560693641618457,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 1
+		},
+		"time": 98.497109826589551,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 0
+		},
+		"time": 99.884393063583772,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 1
+		},
+		"time": 109.59537572254331,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 0
+		},
+		"time": 110.98265895953753,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 1
+		},
+		"time": 112.36994219653174,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 0
+		},
+		"time": 113.75722543352596,
+		"type": "set_camera_target"
+	},
+	{
+		"properties": {
+			"character": 1
+		},
+		"time": 119.30635838150285,
+		"type": "set_camera_target"
+	}
+]
