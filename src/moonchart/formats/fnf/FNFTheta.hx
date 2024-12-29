@@ -99,7 +99,7 @@ class FNFTheta extends BasicJsonFormat<FNFThetaFormat, FNFThetaMeta>
 
         // Push normal events / cam movement events
 		var basicEvents = chart.data.events;
-		var events:Array<FNFThetaEvent> = Util.makeArray(basicEvents.length);
+		var events:Array<FNFThetaEvent> = [];
 
 		for (i in 0...basicEvents.length)
 		{
@@ -108,7 +108,7 @@ class FNFTheta extends BasicJsonFormat<FNFThetaFormat, FNFThetaMeta>
 
             // TODO: other events maybe
             if (isFocus) {
-                Util.setArray(events, i, {
+                events.push({
                     type: "set_camera_target",
                     time: event.time / 1000,
                     properties: [
