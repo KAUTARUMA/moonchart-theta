@@ -1,5 +1,6 @@
 package moonchart.formats.fnf;
 
+import moonchart.backend.Timing;
 import moonchart.backend.FormatData;
 import moonchart.backend.Util;
 import moonchart.formats.BasicFormat;
@@ -59,8 +60,6 @@ class FNFTheta extends BasicJsonFormat<FNFThetaFormat, FNFThetaMeta>
 		var basicNotes:Array<BasicNote> = chartResolve.notes.get(chartResolve.diffs[0]);
         var meta = chart.meta;
 
-        final bpm = chart.meta.bpmChanges[0];
-
         // you probably only need two? write code for gf note stuff l8r
         var strumlines:Array<FNFThetaStrumline> = Util.makeArray(2);
         for (i in 0...2)
@@ -72,21 +71,36 @@ class FNFTheta extends BasicJsonFormat<FNFThetaFormat, FNFThetaMeta>
             }
         }
 
-        final secPerBeat = 60 / bpm.bpm;
-        final secPerStep = secPerBeat / 4;
-
+        var totalSteps:Float = 0;
+        var lastBPMChange:BasicBPMChange = null;
+        
         for (note in basicNotes)
         {
-            var lane:Int = note.lane;
+            var lane:Int = (note.lane + 4) % 8;
             var strumline:FNFThetaStrumline = strumlines[Std.int(lane / 4)];
-
+            
             if (strumline == null)
                 continue;
-
+            
             var direction:Int = lane % 4;
             
-            var noteBeat = (note.time / 1000) / secPerStep;
-            var holdBeat = (note.length / 1000) / secPerStep;
+            var curBPMChange = chart.meta.bpmChanges[0];
+
+            for (bpmChange in chart.meta.bpmChanges) {
+                if (bpmChange.time < note.time)
+                    curBPMChange = bpmChange;
+            }
+
+            if (lastBPMChange != null && lastBPMChange != curBPMChange) {
+                var lastStepCrochet = Timing.stepCrochet(lastBPMChange.bpm, 4) / 1000;
+                totalSteps += ((curBPMChange.time - lastBPMChange.time) / 1000) / lastStepCrochet;
+            }
+
+            var secPerStep = Timing.stepCrochet(curBPMChange.bpm, 4);
+            var stepsSinceChange = ((note.time - curBPMChange.time) / secPerStep);
+
+            var noteBeat = totalSteps + stepsSinceChange;
+            var holdBeat = note.length / secPerStep;
 
             strumline.notes.push({
                 time: noteBeat,
@@ -95,6 +109,8 @@ class FNFTheta extends BasicJsonFormat<FNFThetaFormat, FNFThetaMeta>
                 type: "",
                 properties: []
             });
+
+            lastBPMChange = curBPMChange;
         }
 
         // Push normal events / cam movement events
@@ -117,6 +133,10 @@ class FNFTheta extends BasicJsonFormat<FNFThetaFormat, FNFThetaMeta>
             }
 		}
 
+        for (bpmChange in chart.meta.bpmChanges) {
+            trace(bpmChange.time / 1000.0, bpmChange.bpm);
+        }
+
         events.sort((a, b) -> return Util.sortValues(a.time, b.time));
 
         this.data = strumlines;
@@ -129,8 +149,8 @@ class FNFTheta extends BasicJsonFormat<FNFThetaFormat, FNFThetaMeta>
     {
         return switch (FNFGlobal.resolveCamFocus(event))
         {
-            case BF: 1;
-            case DAD: 0;
+            case BF: 0;
+            case DAD: 1;
             case GF: 2;
         }
     }
