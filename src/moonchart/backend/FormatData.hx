@@ -1,23 +1,22 @@
 package moonchart.backend;
 
-import moonchart.backend.Util;
 import moonchart.formats.*;
 import moonchart.formats.BasicFormat.DynamicFormat;
 import moonchart.formats.fnf.*;
 import moonchart.formats.fnf.legacy.*;
 
-enum abstract PossibleValue(Int8) from Int8 to Int8
+enum abstract PossibleValue(Int) from Int to Int
 {
-	var FALSE = 0;
-	var TRUE = 1;
-	var POSSIBLE = 2;
+	var FALSE;
+	var TRUE;
+	var POSSIBLE;
 }
 
-// Keeping for backwards compat, should prob at this with macros too
 enum abstract Format(String) from String to String
 {
 	var FNF_LEGACY;
 	var FNF_LEGACY_PSYCH;
+	var FNF_LEGACY_TROLL;
 	var FNF_LEGACY_FPS_PLUS;
 	var FNF_KADE;
 	var FNF_MARU;
@@ -34,13 +33,14 @@ enum abstract Format(String) from String to String
 
 	/**
 	 * Returns the hardcoded list of format data by default Moonchart.
-	 * Gotta have this if youre targetting without macros
+	 * To add extra formats for custom implementations use ``moonchart.backend.FormatDetector.registerFormat``.
 	 */
 	public static function getList():Array<FormatData>
 	{
 		return [
 			FNFLegacy.__getFormat(),
 			FNFPsych.__getFormat(),
+			FNFTroll.__getFormat(),
 			FNFFpsPlus.__getFormat(),
 			FNFKade.__getFormat(),
 			FNFMaru.__getFormat(),
@@ -67,7 +67,22 @@ typedef FormatData =
 	hasMetaFile:PossibleValue,
 	?metaFileExtension:String,
 	?packedExtension:String,
+
+	/**
+	 * Special values are an array of strings that the format detector
+	 * may use if theres conflicts between formats of the same extension.
+	 *
+	 * Note that, to skip unnecesary parsing, this will check for RAW parts of the string.
+	 * In other words, if you want to check for a value in a JSON file, you should format the value.
+	 * Like this: ``'"someJsonValue":'``
+	 *
+	 * You can also set how important these values are with a prefix, heres the list of available prefixes:
+	 * `(blank)`: Value MUST be in the chart
+	 * `_`: Important value that MUST be in the chart
+	 * `?`: Value that can OPTIONALLY be inside the chart
+	 */
 	?specialValues:Array<String>,
+
 	?findMeta:Array<String>->String,
 	?formatFile:(String, String) -> Array<String>,
 	handler:Class<DynamicFormat>

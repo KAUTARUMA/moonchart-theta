@@ -7,23 +7,6 @@ import moonchart.formats.BasicFormat;
 
 using StringTools;
 
-/*#if macro
-	import moonchart.backend.FormatMacro;
-	#end */
-typedef DetectedFormatFiles =
-{
-	format:Format,
-	files:Array<String>
-}
-
-typedef FormatCheckSettings =
-{
-	?checkContents:Bool,
-	?possibleFormats:Array<Format>,
-	?excludedFormats:Array<Format>,
-	?fileFormatter:(String, String) -> Array<String>
-}
-
 @:keep // Should fix the DCE?
 class FormatDetector
 {
@@ -38,9 +21,8 @@ class FormatDetector
 	}
 
 	/**
-	 * Use this function for Moonchart implementations at the start of your ``Main`` init function.
-	 * It'll make sure to load up all the default formats + any extra ones you may need for your implementation.
-	 * @param initFormats (Optional) An array of all the extra formats ``FormatData`` you want to register.
+	 * Initializes the format detector.
+	 * More info on ``moonchart.Moonchart``
 	 */
 	public static function init(?initFormats:Array<FormatData>):Void
 	{
@@ -55,8 +37,9 @@ class FormatDetector
 		}
 	}
 
+	@:noCompletion
+	public static var initialized(default, null):Bool = false;
 	public static var formatMap(get, null):Map<Format, FormatData> = [];
-	private static var initialized(default, null):Bool = false;
 
 	// Make sure all formats are loaded any time formatMap is called
 	inline static function get_formatMap()
@@ -73,8 +56,9 @@ class FormatDetector
 
 		initialized = true;
 
-		// Load up all formats data
-		for (format in /*#if macro FormatMacro.loadFormats() #else */ Format.getList() /* #end*/)
+		// Load up all the default formats
+		var list = Format.getList();
+		for (format in list)
 			registerFormat(format);
 	}
 
@@ -104,11 +88,12 @@ class FormatDetector
 
 	/**
 	 * Adds a format to the formatMap list so it can be used in format detection.
+	 * Also loads up any extension data the format may contain.
 	 * @param data The ``FormatData`` to register into the format detector.
 	 */
 	public inline static function registerFormat(data:FormatData):Void
 	{
-		formatMap.set(data.ID, data);
+		__registerWithInheritance(data);
 	}
 
 	/**
@@ -152,6 +137,15 @@ class FormatDetector
 
 		// throw 'Registered format not found for class $input.';
 		return "";
+	}
+
+	/**
+	 * @param formatInstance The format instance to get a format ID from.
+	 * @return The format ID ``String`` from a format class, an empty string if not found.
+	 */
+	public static function getInstanceFormat(formatInstance:DynamicFormat):Format
+	{
+		return getClassFormat(Type.getClass(formatInstance));
 	}
 
 	/**
@@ -262,7 +256,7 @@ class FormatDetector
 
 		// Find all the possible chart files from the folder
 		var folderFiles = Util.readFolder(folder);
-		folderFiles.filter((path) -> return extensions.contains(Path.extension(path)));
+		folderFiles = folderFiles.filter((path) -> return extensions.contains(Path.extension(path)));
 
 		if (folderFiles.length <= 0)
 		{
@@ -356,6 +350,8 @@ class FormatDetector
 			var match = {points: 0, format: format};
 			matchPoints.push(match);
 
+			// trace(data.ID, data.specialValues);
+
 			for (value in data.specialValues)
 			{
 				var valueValidation = validateSpecialValue(mainContent, value);
@@ -375,7 +371,7 @@ class FormatDetector
 			return true;
 		});
 
-		matchPoints.filter((v) -> return possibleFormats.contains(v.format));
+		matchPoints = matchPoints.filter((v) -> return possibleFormats.contains(v.format));
 		matchPoints.sort((a, b) -> return Util.sortValues(a.points, b.points, false));
 
 		if (matchPoints.length <= 0)
@@ -411,7 +407,79 @@ class FormatDetector
 			checkContents: true
 		});
 
-		settings.possibleFormats.filter((v) -> return !settings.excludedFormats.contains(v));
+		settings.possibleFormats = settings.possibleFormats.filter((v) -> !settings.excludedFormats.contains(v));
 		return settings;
 	}
+
+	/**
+	 * Internal method to register formats to the format map
+	 */
+	private inline static function __registerFormat(data:FormatData):Void
+	{
+		formatMap.set(data.ID, data);
+	}
+
+	/**
+	 * Internal method to check and add any extended data the format may be missing
+	 */
+	private static function __registerWithInheritance(data:FormatData)
+	{
+		if (formatMap.exists(data.ID))
+			return;
+
+		__registerFormat(data);
+
+		var formatClass:Class<DynamicFormat> = data.handler;
+		var specialValues:Array<String> = data.specialValues;
+		var formatSuper:String = '';
+
+		// find a valid super class
+		var tmpClass = formatClass;
+		while (true)
+		{
+			var superClass = Type.getSuperClass(tmpClass);
+			formatSuper = Type.getClassName(superClass);
+			if (formatSuper.endsWith('Basic'))
+				formatSuper = formatSuper.substr(0, formatSuper.length - 5);
+
+			if (formatSuper != Type.getClassName(formatClass))
+				break;
+
+			tmpClass = cast superClass;
+		}
+
+		// check if its a valid moonchart class
+		var superClass:Class<DynamicFormat> = cast Type.resolveClass(formatSuper);
+		var getFormatMethod = Reflect.field(superClass, '__getFormat');
+		if (getFormatMethod == null)
+			return;
+
+		// check if the super class is registered and if it has any data to take from
+		var baseData = getFormatMethod();
+		__registerWithInheritance(baseData);
+		var extendedData = getFormatData(baseData.ID);
+		if (extendedData.specialValues == null || extendedData.specialValues.length <= 0)
+			return;
+
+		// add inherited data
+		for (value in extendedData.specialValues)
+		{
+			if (specialValues.indexOf(value) == -1)
+				specialValues.push(value);
+		}
+	}
+}
+
+typedef DetectedFormatFiles =
+{
+	format:Format,
+	files:Array<String>
+}
+
+typedef FormatCheckSettings =
+{
+	?checkContents:Bool,
+	?possibleFormats:Array<Format>,
+	?excludedFormats:Array<Format>,
+	?fileFormatter:(String, String) -> Array<String>
 }

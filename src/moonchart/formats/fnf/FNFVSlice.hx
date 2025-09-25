@@ -4,87 +4,11 @@ import moonchart.backend.FormatData;
 import moonchart.backend.Timing;
 import moonchart.backend.Util;
 import moonchart.formats.BasicFormat;
+import moonchart.formats.fnf.FNFGlobal.BasicFNFNoteType;
 import moonchart.formats.fnf.FNFGlobal.FNFNoteTypeResolver;
 import moonchart.formats.fnf.legacy.FNFLegacy.FNFLegacyMetaValues;
 
 using StringTools;
-
-typedef FNFVSliceFormat =
-{
-	version:String,
-	generatedBy:String,
-
-	scrollSpeed:JsonMap<Float>,
-	notes:JsonMap<Array<FNFVSliceNote>>,
-	events:Array<FNFVSliceEvent>
-}
-
-typedef FNFVSliceNote =
-{
-	t:Float,
-	d:Int8,
-	l:Float,
-	k:String
-}
-
-typedef FNFVSliceEvent =
-{
-	t:Float,
-	e:String,
-	v:Dynamic
-}
-
-typedef FNFVSliceMeta =
-{
-	timeFormat:String,
-	artist:String,
-	charter:String,
-	generatedBy:String,
-	version:String,
-
-	playData:FNFVSlicePlayData,
-	songName:String,
-	offsets:FNFVSliceOffsets,
-	timeChanges:Array<FNFVSliceTimeChange>
-}
-
-typedef FNFVSliceTimeChange =
-{
-	t:Float,
-	bpm:Float,
-	n:Int,
-	d:Int
-}
-
-typedef FNFVSliceOffsets =
-{
-	instrumental:Float,
-	vocals:JsonMap<Float>,
-	altInstrumentals:JsonMap<Float>,
-	altVocals:JsonMap<JsonMap<Float>>
-}
-
-typedef FNFVSliceManifest =
-{
-	version:String,
-	songId:String
-}
-
-typedef FNFVSlicePlayData =
-{
-	album:String,
-	previewStart:Int,
-	previewEnd:Int,
-	ratings:JsonMap<Int>,
-	characters:
-	{
-		player:String, girlfriend:String, opponent:String
-	},
-	difficulties:Array<String>,
-	songVariations:Array<String>,
-	noteStyle:String,
-	stage:String
-}
 
 enum abstract FNFVSliceMetaValues(String) from String to String
 {
@@ -109,7 +33,8 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 
 	public static inline var VSLICE_CHART_VERSION:String = "2.0.0";
 	public static inline var VSLICE_META_VERSION:String = "2.2.4";
-	public static inline var VSLICE_MANIFEST_VERSION:String = "1.0.0";
+
+	// public static inline var VSLICE_MANIFEST_VERSION:String = "1.0.0";
 
 	public static function __getFormat():FormatData
 	{
@@ -150,10 +75,13 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 		this.meta = meta;
 		beautify = true;
 
+		if (this.data != null)
+			this.diffs = this.data.notes.keys();
+
 		// Register FNF V-Slice note types
 		noteTypeResolver = FNFGlobal.createNoteTypeResolver();
-		noteTypeResolver.register(VSLICE_DEFAULT, DEFAULT);
-		noteTypeResolver.register(VSLICE_MOM, ALT_ANIM);
+		noteTypeResolver.register(FNFVSliceNoteType.VSLICE_DEFAULT, BasicNoteType.DEFAULT);
+		noteTypeResolver.register(FNFVSliceNoteType.VSLICE_MOM, BasicFNFNoteType.ALT_ANIM);
 	}
 
 	// Could be useful converting erect mixes
@@ -181,7 +109,7 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 		}
 
 		timeChanges.sort((a, b) -> return Util.sortValues(a.t, b.t));
-		final lanesLength:Int8 = (meta.extraData.get(LANES_LENGTH) ?? 8) <= 7 ? 4 : 8;
+		final lanesLength:Int = (meta.extraData.get(LANES_LENGTH) ?? 8) <= 7 ? 4 : 8;
 
 		for (chartDiff => chart in chartResolve)
 		{
@@ -215,6 +143,7 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 			scrollSpeed.set(chartDiff, speed);
 		}
 
+		final extraCamData:Array<String> = ['duration', 'mode', 'x', 'y', 'zoom']; // im too lazy to type these out manually lol
 		var chartEvents = chart.data.events;
 		var events:Array<FNFVSliceEvent> = Util.makeArray(chartEvents.length);
 
@@ -222,18 +151,34 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 		{
 			var event = Util.getArray(chartEvents, i);
 			var isFocus:Bool = ((event.name != VSLICE_FOCUS_EVENT) && FNFGlobal.isCamFocus(event));
-			Util.setArray(events, i, isFocus ? {
-				t: event.time,
-				e: VSLICE_FOCUS_EVENT,
-				v: {
-					char: FNFGlobal.resolveCamFocus(event),
-					ease: "CLASSIC"
-				}
-			} : {
-				t: event.time,
-				e: event.name,
-				v: event.data
+
+			if (!isFocus)
+			{
+				Util.setArray(events, i, {
+					t: event.time,
+					e: event.name,
+					v: event.data
 				});
+			}
+			else
+			{
+				var camFocusData:Dynamic = {
+					char: FNFGlobal.resolveCamFocus(event),
+					ease: event.data.ease ?? "CLASSIC"
+				}
+
+				for (value in extraCamData)
+				{
+					if (Reflect.hasField(event.data, value))
+						Reflect.setField(camFocusData, value, Reflect.field(event.data, value));
+				}
+
+				Util.setArray(events, i, {
+					t: event.time,
+					e: VSLICE_FOCUS_EVENT,
+					v: camFocusData
+				});
+			}
 		}
 
 		this.data = {
@@ -273,10 +218,10 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 
 		this.meta = {
 			timeFormat: "ms",
-			artist: extra.get(SONG_ARTIST) ?? Settings.DEFAULT_ARTIST,
-			charter: extra.get(SONG_CHARTER) ?? Settings.DEFAULT_CHARTER,
+			artist: extra.get(SONG_ARTIST) ?? Moonchart.DEFAULT_ARTIST,
+			charter: extra.get(SONG_CHARTER) ?? Moonchart.DEFAULT_CHARTER,
 			playData: {
-				album: extra.get(SONG_ALBUM) ?? Settings.DEFAULT_ALBUM,
+				album: extra.get(SONG_ALBUM) ?? Moonchart.DEFAULT_ALBUM,
 				previewStart: extra.get(SONG_PREVIEW_START) ?? 0,
 				previewEnd: extra.get(SONG_PREVIEW_END) ?? 15000,
 				ratings: ratings.fromMap(ratingsMap),
@@ -300,7 +245,8 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 			},
 			timeChanges: timeChanges,
 			generatedBy: Util.version,
-			version: VSLICE_META_VERSION
+			version: VSLICE_META_VERSION,
+			looped: false
 		}
 
 		return this;
@@ -360,9 +306,10 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 	override function getEvents():Array<BasicEvent>
 	{
 		var vsliceEvents = data.events;
-		var events:Array<BasicEvent> = Util.makeArray(vsliceEvents.length);
+		var eventsLength:Int = vsliceEvents.length;
+		var events:Array<BasicEvent> = Util.makeArray(eventsLength);
 
-		for (i in 0...vsliceEvents.length)
+		for (i in 0...eventsLength)
 		{
 			final event = Util.getArray(vsliceEvents, i);
 			Util.setArray(events, i, {
@@ -384,10 +331,10 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 		{
 			final change = Util.getArray(timeChanges, i);
 			Util.setArray(bpmChanges, i, {
-				time: Math.max(change.t, 0), // Just making sure they all start at 0 lol
+				time: Math.max(change.t, 0.0), // Just making sure they all start at 0 lol
 				bpm: change.bpm,
-				beatsPerMeasure: 4,
-				stepsPerBeat: 4
+				beatsPerMeasure: change.d ?? 4,
+				stepsPerBeat: change.n ?? 4
 			});
 		}
 
@@ -412,10 +359,10 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 				SONG_CHARTER => meta.charter,
 				SONG_VARIATIONS => meta.playData.songVariations ?? [],
 				SONG_RATINGS => songRatings,
-				SONG_ALBUM => meta.playData.album ?? Settings.DEFAULT_ALBUM,
+				SONG_ALBUM => meta.playData.album ?? Moonchart.DEFAULT_ALBUM,
 				SONG_PREVIEW_START => meta.playData.previewStart ?? 0,
 				SONG_PREVIEW_END => meta.playData.previewEnd ?? 15000,
-				// SONG_NOTE_SKIN => meta.playData.noteStyle ?? "funkin",
+				SONG_NOTE_SKIN => meta.playData.noteStyle ?? VSLICE_DEFAULT_NOTE_SKIN,
 				LANES_LENGTH => 8
 			]
 		}
@@ -432,4 +379,82 @@ class FNFVSlice extends BasicJsonFormat<FNFVSliceFormat, FNFVSliceMeta>
 		this.diffs = diff ?? this.data.notes.keys();
 		return this;
 	}
+}
+
+typedef FNFVSliceFormat =
+{
+	version:String,
+	generatedBy:String,
+
+	scrollSpeed:JsonMap<Float>,
+	notes:JsonMap<Array<FNFVSliceNote>>,
+	events:Array<FNFVSliceEvent>
+}
+
+typedef FNFVSliceNote =
+{
+	t:Float,
+	d:Int,
+	l:Float,
+	k:String
+}
+
+typedef FNFVSliceEvent =
+{
+	t:Float,
+	e:String,
+	v:Dynamic
+}
+
+typedef FNFVSliceMeta =
+{
+	timeFormat:String,
+	artist:String,
+	charter:String,
+	generatedBy:String,
+	version:String,
+	looped:Bool,
+
+	playData:FNFVSlicePlayData,
+	songName:String,
+	offsets:FNFVSliceOffsets,
+	timeChanges:Array<FNFVSliceTimeChange>
+}
+
+typedef FNFVSliceTimeChange =
+{
+	t:Float,
+	bpm:Float,
+	n:Int,
+	d:Int
+}
+
+typedef FNFVSliceOffsets =
+{
+	instrumental:Float,
+	vocals:JsonMap<Float>,
+	altInstrumentals:JsonMap<Float>,
+	altVocals:JsonMap<JsonMap<Float>>
+}
+
+typedef FNFVSliceManifest =
+{
+	version:String,
+	songId:String
+}
+
+typedef FNFVSlicePlayData =
+{
+	album:String,
+	previewStart:Int,
+	previewEnd:Int,
+	ratings:JsonMap<Int>,
+	characters:
+	{
+		player:String, girlfriend:String, opponent:String
+	},
+	difficulties:Array<String>,
+	songVariations:Array<String>,
+	noteStyle:String,
+	stage:String
 }
