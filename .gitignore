@@ -5,3 +5,7 @@ dump/
 .vscode/
 bin/
 test.json
+src/input.json
+src/inputmeta.json
+src/chart.json
+src/events.json
