@@ -1,1 +1,1967 @@
-[{"notes":[{"direction":1,"properties":{},"time":240.015866666667193,"type":"","holdlength":0},{"direction":3,"properties":{},"time":256.015866666666625,"type":"","holdlength":10.9999999999999414},{"direction":2,"properties":{},"time":267.965866666666557,"type":"","holdlength":22.0000000000000107},{"direction":1,"properties":{},"time":292.015866666666454,"type":"","holdlength":0},{"direction":2,"properties":{},"time":296.015866666667478,"type":"","holdlength":0},{"direction":2,"properties":{},"time":300.015866666666966,"type":"","holdlength":2.99999999999998712},{"direction":0,"properties":{},"time":308.015866666667421,"type":"","holdlength":0},{"direction":2,"properties":{},"time":312.015866666666909,"type":"","holdlength":0},{"direction":2,"properties":{},"time":316.015866666666341,"type":"","holdlength":5.99999999999998934},{"direction":3,"properties":{},"time":324.015866666666795,"type":"","holdlength":0},{"direction":1,"properties":{},"time":326.015866666667364,"type":"","holdlength":0},{"direction":3,"properties":{},"time":328.015866666666284,"type":"","holdlength":0},{"direction":2,"properties":{},"time":332.015866666667307,"type":"","holdlength":0},{"direction":2,"properties":{},"time":334.015866666666284,"type":"","holdlength":0},{"direction":0,"properties":{},"time":336.015866666666795,"type":"","holdlength":0},{"direction":2,"properties":{},"time":340.015866666666227,"type":"","holdlength":6.99999999999998},{"direction":0,"properties":{},"time":348.015866666666682,"type":"","holdlength":2.99999999999998712},{"direction":3,"properties":{},"time":352.01586666666617,"type":"","holdlength":0},{"direction":1,"properties":{},"time":356.015866666667193,"type":"","holdlength":0},{"direction":2,"properties":{},"time":358.01586666666617,"type":"","holdlength":0},{"direction":0,"properties":{},"time":362.325122222222092,"type":"","holdlength":0},{"direction":1,"properties":{},"time":364.01586666666617,"type":"","holdlength":0},{"direction":3,"properties":{},"time":368.015866666667193,"type":"","holdlength":0},{"direction":2,"properties":{},"time":372.015866666666568,"type":"","holdlength":0},{"direction":1,"properties":{},"time":376.015866666666057,"type":"","holdlength":0},{"direction":1,"properties":{},"time":380.01586666666708,"type":"","holdlength":0},{"direction":0,"properties":{},"time":452.015866666666795,"type":"","holdlength":0},{"direction":3,"properties":{},"time":460.015866666667307,"type":"","holdlength":0},{"direction":0,"properties":{},"time":468.01586666666617,"type":"","holdlength":0},{"direction":2,"properties":{},"time":470.015866666666682,"type":"","holdlength":0},{"direction":3,"properties":{},"time":472.01586666666725,"type":"","holdlength":0},{"direction":0,"properties":{},"time":476.015866666666682,"type":"","holdlength":0},{"direction":1,"properties":{},"time":478.015866666667193,"type":"","holdlength":0.999999999999998335},{"direction":2,"properties":{},"time":484.015866666667193,"type":"","holdlength":0},{"direction":1,"properties":{},"time":486.015866666666113,"type":"","holdlength":0},{"direction":2,"properties":{},"time":492.015866666666057,"type":"","holdlength":0},{"direction":1,"properties":{},"time":494.015866666666568,"type":"","holdlength":0},{"direction":3,"properties":{},"time":500.015866666666568,"type":"","holdlength":0},{"direction":0,"properties":{},"time":502.01586666666708,"type":"","holdlength":0},{"direction":3,"properties":{},"time":508.01586666666708,"type":"","holdlength":0},{"direction":1,"properties":{},"time":510.015866666666057,"type":"","holdlength":0},{"direction":0,"properties":{},"time":516.015866666665943,"type":"","holdlength":1.99999999999999667},{"direction":0,"properties":{},"time":524.015866666666511,"type":"","holdlength":1.99999999999999667},{"direction":1,"properties":{},"time":530.015866666666398,"type":"","holdlength":0},{"direction":2,"properties":{},"time":536.015866666666398,"type":"","holdlength":0},{"direction":2,"properties":{},"time":542.015866666666398,"type":"","holdlength":0},{"direction":3,"properties":{},"time":548.015866666666398,"type":"","holdlength":0},{"direction":1,"properties":{},"time":550.015866666666852,"type":"","holdlength":0},{"direction":3,"properties":{},"time":556.015866666666852,"type":"","holdlength":0},{"direction":1,"properties":{},"time":558.015866666667421,"type":"","holdlength":0},{"direction":2,"properties":{},"time":564.015866666667421,"type":"","holdlength":0},{"direction":2,"properties":{},"time":566.015866666666284,"type":"","holdlength":0},{"direction":0,"properties":{},"time":572.015866666666284,"type":"","holdlength":5.00000000000004707},{"direction":2,"properties":{},"time":580.015866666666739,"type":"","holdlength":1.00000000000005529},{"direction":3,"properties":{},"time":588.015866666667193,"type":"","holdlength":2.99999999999993916},{"direction":0,"properties":{},"time":594.015866666667193,"type":"","holdlength":0},{"direction":2,"properties":{},"time":598.015866666666625,"type":"","holdlength":0},{"direction":1,"properties":{},"time":600.015866666667193,"type":"","holdlength":0},{"direction":3,"properties":{},"time":604.015866666666625,"type":"","holdlength":0},{"direction":1,"properties":{},"time":608.01586666666617,"type":"","holdlength":3.00000000000005},{"direction":2,"properties":{},"time":608.01586666666617,"type":"","holdlength":0},{"direction":0,"properties":{},"time":616.015866666666625,"type":"","holdlength":0},{"direction":3,"properties":{},"time":618.015866666667193,"type":"","holdlength":0},{"direction":0,"properties":{},"time":620.015866666666,"type":"","holdlength":0},{"direction":3,"properties":{},"time":622.015866666666625,"type":"","holdlength":0},{"direction":0,"properties":{},"time":632.015866666665943,"type":"","holdlength":0},{"direction":2,"properties":{},"time":634.015866666666511,"type":"","holdlength":0},{"direction":0,"properties":{},"time":636.015866666667,"type":"","holdlength":0},{"direction":1,"properties":{},"time":638.015866666665943,"type":"","holdlength":0},{"direction":3,"properties":{},"time":642.015866666667,"type":"","holdlength":0},{"direction":3,"properties":{},"time":644.015866666667534,"type":"","holdlength":0},{"direction":3,"properties":{},"time":646.015866666666511,"type":"","holdlength":0},{"direction":1,"properties":{},"time":648.015866666667,"type":"","holdlength":0},{"direction":0,"properties":{},"time":648.015866666667,"type":"","holdlength":0},{"direction":3,"properties":{},"time":652.015866666666511,"type":"","holdlength":0},{"direction":1,"properties":{},"time":658.015866666666398,"type":"","holdlength":0},{"direction":2,"properties":{},"time":660.015866666667,"type":"","holdlength":1.99999999999999667},{"direction":0,"properties":{},"time":664.015866666666398,"type":"","holdlength":1.99999999999999667},{"direction":1,"properties":{},"time":668.015866666667421,"type":"","holdlength":5.00000000000004707},{"direction":3,"properties":{},"time":668.015866666667421,"type":"","holdlength":0},{"direction":0,"properties":{},"time":676.015866666666284,"type":"","holdlength":0},{"direction":1,"properties":{},"time":680.015866666667421,"type":"","holdlength":0},{"direction":0,"properties":{},"time":684.015866666666852,"type":"","holdlength":0},{"direction":3,"properties":{},"time":688.015866666666284,"type":"","holdlength":0},{"direction":1,"properties":{},"time":696.015866666666739,"type":"","holdlength":3.99999999999999334},{"direction":2,"properties":{},"time":696.015866666666739,"type":"","holdlength":1.99999999999999667},{"direction":1,"properties":{},"time":706.015866666666284,"type":"","holdlength":0},{"direction":0,"properties":{},"time":708.015866666666739,"type":"","holdlength":0},{"direction":3,"properties":{},"time":710.015866666667307,"type":"","holdlength":0},{"direction":0,"properties":{},"time":712.01586666666617,"type":"","holdlength":0},{"direction":0,"properties":{},"time":716.015866666667307,"type":"","holdlength":0},{"direction":1,"properties":{},"time":722.015866666667193,"type":"","holdlength":0},{"direction":2,"properties":{},"time":724.015866666666,"type":"","holdlength":0},{"direction":3,"properties":{},"time":728.015866666667193,"type":"","holdlength":0},{"direction":1,"properties":{},"time":732.015866666666625,"type":"","holdlength":0},{"direction":3,"properties":{},"time":736.015866666666,"type":"","holdlength":0.999999999999939604},{"direction":2,"properties":{},"time":740.01586666666708,"type":"","holdlength":0.999999999999939604},{"direction":1,"properties":{},"time":744.015866666666511,"type":"","holdlength":1.00000000000005529},{"direction":3,"properties":{},"time":748.015866666666,"type":"","holdlength":1.00000000000005529},{"direction":0,"properties":{},"time":748.015866666666,"type":"","holdlength":0},{"direction":1,"properties":{},"time":752.01586666666708,"type":"","holdlength":0},{"direction":2,"properties":{},"time":752.01586666666708,"type":"","holdlength":1.99999999999999667},{"direction":3,"properties":{},"time":756.015866666666511,"type":"","holdlength":1.00000000000005529},{"direction":1,"properties":{},"time":760.015866666666,"type":"","holdlength":1.00000000000005529},{"direction":3,"properties":{},"time":772.015866666667534,"type":"","holdlength":0},{"direction":1,"properties":{},"time":778.015866666667534,"type":"","holdlength":0},{"direction":3,"properties":{},"time":782.015866666666852,"type":"","holdlength":0},{"direction":2,"properties":{},"time":787.34920000000011,"type":"","holdlength":0},{"direction":0,"properties":{},"time":792.015866666666398,"type":"","holdlength":0},{"direction":0,"properties":{},"time":800.015866666666852,"type":"","holdlength":0},{"direction":0,"properties":{},"time":808.015866666667421,"type":"","holdlength":0},{"direction":0,"properties":{},"time":816.015866666666284,"type":"","holdlength":0},{"direction":1,"properties":{},"time":832.015866666667193,"type":"","holdlength":0.999999999999939604},{"direction":2,"properties":{},"time":842.015866666666625,"type":"","holdlength":0},{"direction":2,"properties":{},"time":846.01586666666617,"type":"","holdlength":0},{"direction":0,"properties":{},"time":851.3491999999992,"type":"","holdlength":1.99999999999999667},{"direction":3,"properties":{},"time":856.015866666667193,"type":"","holdlength":0},{"direction":3,"properties":{},"time":864.015866666666,"type":"","holdlength":0},{"direction":3,"properties":{},"time":872.015866666666511,"type":"","holdlength":0},{"direction":2,"properties":{},"time":876.015866666665943,"type":"","holdlength":0},{"direction":1,"properties":{},"time":880.015866666667,"type":"","holdlength":0},{"direction":0,"properties":{},"time":884.015866666666511,"type":"","holdlength":5.99999999999998934},{"direction":2,"properties":{},"time":900.015866666667421,"type":"","holdlength":0},{"direction":2,"properties":{},"time":902.015866666666398,"type":"","holdlength":0},{"direction":3,"properties":{},"time":904.015866666667,"type":"","holdlength":0},{"direction":2,"properties":{},"time":906.015866666667421,"type":"","holdlength":0},{"direction":1,"properties":{},"time":910.015866666667,"type":"","holdlength":2.99999999999993916},{"direction":0,"properties":{},"time":916.015866666667,"type":"","holdlength":0},{"direction":1,"properties":{},"time":920.015866666666284,"type":"","holdlength":0},{"direction":2,"properties":{},"time":922.015866666666852,"type":"","holdlength":0},{"direction":1,"properties":{},"time":924.015866666667421,"type":"","holdlength":0},{"direction":3,"properties":{},"time":932.015866666666284,"type":"","holdlength":0},{"direction":0,"properties":{},"time":934.015866666666739,"type":"","holdlength":0},{"direction":3,"properties":{},"time":936.015866666667307,"type":"","holdlength":0},{"direction":1,"properties":{},"time":938.015866666666284,"type":"","holdlength":0},{"direction":3,"properties":{},"time":942.015866666667307,"type":"","holdlength":0},{"direction":1,"properties":{},"time":944.015866666666284,"type":"","holdlength":0},{"direction":1,"properties":{},"time":946.015866666666739,"type":"","holdlength":0},{"direction":2,"properties":{},"time":948.015866666667307,"type":"","holdlength":0},{"direction":3,"properties":{},"time":950.01586666666617,"type":"","holdlength":0},{"direction":0,"properties":{},"time":952.015866666666739,"type":"","holdlength":0},{"direction":3,"properties":{},"time":954.015866666667307,"type":"","holdlength":0},{"direction":3,"properties":{},"time":956.01586666666617,"type":"","holdlength":0.999999999999939604},{"direction":0,"properties":{},"time":960.015866666667193,"type":"","holdlength":0},{"direction":1,"properties":{},"time":962.01586666666617,"type":"","holdlength":0},{"direction":0,"properties":{},"time":964.015866666666739,"type":"","holdlength":0},{"direction":2,"properties":{},"time":992.015866666666,"type":"","holdlength":0},{"direction":1,"properties":{},"time":994.015866666666511,"type":"","holdlength":0},{"direction":2,"properties":{},"time":996.01586666666708,"type":"","holdlength":0},{"direction":2,"properties":{},"time":1028.01586666666753,"type":"","holdlength":3.00000000000005}],"character":0,"is_player":true},{"notes":[{"direction":2,"properties":{},"time":248.015866666666113,"type":"","holdlength":0},{"direction":2,"properties":{},"time":384.015866666666568,"type":"","holdlength":5.00000000000004707},{"direction":1,"properties":{},"time":391.349200000000224,"type":"","holdlength":1.99999999999999667},{"direction":3,"properties":{},"time":404.015866666667,"type":"","holdlength":0},{"direction":2,"properties":{},"time":408.015866666666454,"type":"","holdlength":2.99999999999998712},{"direction":0,"properties":{},"time":412.015866666667478,"type":"","holdlength":2.99999999999998712},{"direction":3,"properties":{},"time":416.015866666666966,"type":"","holdlength":0},{"direction":1,"properties":{},"time":420.015866666666398,"type":"","holdlength":0},{"direction":3,"properties":{},"time":424.015866666667478,"type":"","holdlength":0},{"direction":2,"properties":{},"time":428.015866666666909,"type":"","holdlength":0},{"direction":3,"properties":{},"time":436.015866666667421,"type":"","holdlength":0},{"direction":1,"properties":{},"time":436.015866666667421,"type":"","holdlength":0},{"direction":0,"properties":{},"time":440.015866666666852,"type":"","holdlength":0},{"direction":2,"properties":{},"time":440.015866666666852,"type":"","holdlength":0},{"direction":1,"properties":{},"time":444.015866666666284,"type":"","holdlength":5.99999999999998934},{"direction":0,"properties":{},"time":452.015866666666795,"type":"","holdlength":0},{"direction":2,"properties":{},"time":452.015866666666795,"type":"","holdlength":0},{"direction":1,"properties":{},"time":456.015866666666284,"type":"","holdlength":0},{"direction":3,"properties":{},"time":456.015866666666284,"type":"","holdlength":0},{"direction":2,"properties":{},"time":460.015866666667307,"type":"","holdlength":0},{"direction":0,"properties":{},"time":460.015866666667307,"type":"","holdlength":0},{"direction":0,"properties":{},"time":464.015866666666739,"type":"","holdlength":0},{"direction":3,"properties":{},"time":466.015866666667307,"type":"","holdlength":0},{"direction":1,"properties":{},"time":468.01586666666617,"type":"","holdlength":0},{"direction":0,"properties":{},"time":470.015866666666682,"type":"","holdlength":0},{"direction":1,"properties":{},"time":472.01586666666725,"type":"","holdlength":0},{"direction":2,"properties":{},"time":476.015866666666682,"type":"","holdlength":3.00000000000005},{"direction":3,"properties":{},"time":476.015866666666682,"type":"","holdlength":0},{"direction":2,"properties":{},"time":484.015866666667193,"type":"","holdlength":0},{"direction":1,"properties":{},"time":488.015866666666682,"type":"","holdlength":0},{"direction":2,"properties":{},"time":490.015866666667193,"type":"","holdlength":0},{"direction":2,"properties":{},"time":492.015866666666057,"type":"","holdlength":0},{"direction":0,"properties":{},"time":494.015866666666568,"type":"","holdlength":0},{"direction":0,"properties":{},"time":496.015866666667137,"type":"","holdlength":0},{"direction":3,"properties":{},"time":498.015866666666057,"type":"","holdlength":0},{"direction":0,"properties":{},"time":500.015866666666568,"type":"","holdlength":0},{"direction":1,"properties":{},"time":502.01586666666708,"type":"","holdlength":0},{"direction":2,"properties":{},"time":504.015866666666057,"type":"","holdlength":0},{"direction":3,"properties":{},"time":508.01586666666708,"type":"","holdlength":0},{"direction":2,"properties":{},"time":508.01586666666708,"type":"","holdlength":1.99999999999999667},{"direction":2,"properties":{},"time":516.015866666665943,"type":"","holdlength":0},{"direction":2,"properties":{},"time":524.015866666666511,"type":"","holdlength":0},{"direction":1,"properties":{},"time":530.015866666666398,"type":"","holdlength":0},{"direction":1,"properties":{},"time":536.015866666666398,"type":"","holdlength":0.999999999999939604},{"direction":1,"properties":{},"time":542.015866666666398,"type":"","holdlength":0.999999999999939604},{"direction":3,"properties":{},"time":548.015866666666398,"type":"","holdlength":0},{"direction":3,"properties":{},"time":556.015866666666852,"type":"","holdlength":0},{"direction":0,"properties":{},"time":564.015866666667421,"type":"","holdlength":0},{"direction":0,"properties":{},"time":566.015866666666284,"type":"","holdlength":0},{"direction":0,"properties":{},"time":572.015866666666284,"type":"","holdlength":5.00000000000004707},{"direction":3,"properties":{},"time":580.015866666666739,"type":"","holdlength":0},{"direction":3,"properties":{},"time":588.015866666667193,"type":"","holdlength":0},{"direction":1,"properties":{},"time":594.015866666667193,"type":"","holdlength":0},{"direction":1,"properties":{},"time":598.015866666666625,"type":"","holdlength":0.999999999999939604},{"direction":1,"properties":{},"time":604.015866666666625,"type":"","holdlength":0.999999999999939604},{"direction":2,"properties":{},"time":614.01586666666617,"type":"","holdlength":3.00000000000005},{"direction":3,"properties":{},"time":624.015866666667193,"type":"","holdlength":0},{"direction":3,"properties":{},"time":628.015866666666511,"type":"","holdlength":0},{"direction":1,"properties":{},"time":672.015866666667,"type":"","holdlength":1.00000000000005529},{"direction":2,"properties":{},"time":674.015866666667421,"type":"","holdlength":2.00000000000010747},{"direction":3,"properties":{},"time":677.3492,"type":"","holdlength":0},{"direction":0,"properties":{},"time":680.015866666667421,"type":"","holdlength":0},{"direction":2,"properties":{},"time":684.015866666666852,"type":"","holdlength":0},{"direction":3,"properties":{},"time":688.015866666666284,"type":"","holdlength":6.99999999999993161},{"direction":1,"properties":{},"time":696.015866666666739,"type":"","holdlength":7.00000000000004263},{"direction":3,"properties":{},"time":736.015866666666,"type":"","holdlength":0},{"direction":3,"properties":{},"time":740.01586666666708,"type":"","holdlength":0},{"direction":3,"properties":{},"time":744.015866666666511,"type":"","holdlength":0},{"direction":1,"properties":{},"time":748.015866666666,"type":"","holdlength":0},{"direction":3,"properties":{},"time":752.01586666666708,"type":"","holdlength":0},{"direction":2,"properties":{},"time":756.015866666666511,"type":"","holdlength":1.99999999999999667},{"direction":1,"properties":{},"time":760.015866666666,"type":"","holdlength":3.99999999999999334},{"direction":2,"properties":{},"time":796.015866666667421,"type":"","holdlength":1.99999999999999667},{"direction":2,"properties":{},"time":804.015866666666284,"type":"","holdlength":1.99999999999999667},{"direction":2,"properties":{},"time":812.015866666666852,"type":"","holdlength":1.00000000000005529},{"direction":3,"properties":{},"time":820.015866666667307,"type":"","holdlength":0},{"direction":0,"properties":{},"time":822.01586666666617,"type":"","holdlength":0},{"direction":1,"properties":{},"time":824.015866666666739,"type":"","holdlength":0},{"direction":3,"properties":{},"time":826.015866666667307,"type":"","holdlength":0},{"direction":1,"properties":{},"time":828.01586666666617,"type":"","holdlength":0},{"direction":2,"properties":{},"time":830.015866666666739,"type":"","holdlength":0},{"direction":2,"properties":{},"time":840.01586666666617,"type":"","holdlength":0},{"direction":3,"properties":{},"time":846.01586666666617,"type":"","holdlength":0},{"direction":2,"properties":{},"time":850.015866666667193,"type":"","holdlength":0},{"direction":3,"properties":{},"time":860.015866666666625,"type":"","holdlength":2.00000000000010747},{"direction":0,"properties":{},"time":868.01586666666708,"type":"","holdlength":1.99999999999999667},{"direction":3,"properties":{},"time":876.015866666665943,"type":"","holdlength":1.99999999999999667},{"direction":1,"properties":{},"time":884.015866666666511,"type":"","holdlength":0},{"direction":0,"properties":{},"time":886.015866666667,"type":"","holdlength":0},{"direction":1,"properties":{},"time":888.015866666667534,"type":"","holdlength":0},{"direction":3,"properties":{},"time":890.015866666666511,"type":"","holdlength":0},{"direction":1,"properties":{},"time":892.015866666667,"type":"","holdlength":0},{"direction":0,"properties":{},"time":894.015866666667534,"type":"","holdlength":0},{"direction":3,"properties":{},"time":896.015866666666398,"type":"","holdlength":0},{"direction":3,"properties":{},"time":900.015866666667421,"type":"","holdlength":0},{"direction":2,"properties":{},"time":928.015866666666739,"type":"","holdlength":0},{"direction":2,"properties":{},"time":932.015866666666284,"type":"","holdlength":0},{"direction":0,"properties":{},"time":956.01586666666617,"type":"","holdlength":0},{"direction":3,"properties":{},"time":960.015866666667193,"type":"","holdlength":0},{"direction":0,"properties":{},"time":964.015866666666739,"type":"","holdlength":0},{"direction":2,"properties":{},"time":966.015866666667193,"type":"","holdlength":0},{"direction":1,"properties":{},"time":968.015866666666,"type":"","holdlength":0},{"direction":1,"properties":{},"time":970.015866666666625,"type":"","holdlength":0},{"direction":3,"properties":{},"time":974.015866666666,"type":"","holdlength":0},{"direction":1,"properties":{},"time":974.015866666666,"type":"","holdlength":0},{"direction":0,"properties":{},"time":978.01586666666708,"type":"","holdlength":0},{"direction":2,"properties":{},"time":982.015866666666511,"type":"","holdlength":0},{"direction":3,"properties":{},"time":986.015866666666,"type":"","holdlength":0},{"direction":3,"properties":{},"time":988.015866666666511,"type":"","holdlength":0},{"direction":1,"properties":{},"time":992.015866666666,"type":"","holdlength":0},{"direction":2,"properties":{},"time":996.01586666666708,"type":"","holdlength":0},{"direction":3,"properties":{},"time":998.015866666666,"type":"","holdlength":0},{"direction":1,"properties":{},"time":1000.01586666666651,"type":"","holdlength":0},{"direction":3,"properties":{},"time":1002.01586666666708,"type":"","holdlength":0},{"direction":1,"properties":{},"time":1006.01586666666651,"type":"","holdlength":0},{"direction":0,"properties":{},"time":1010.01586666666753,"type":"","holdlength":0},{"direction":3,"properties":{},"time":1012.01586666666651,"type":"","holdlength":0},{"direction":0,"properties":{},"time":1014.01586666666697,"type":"","holdlength":0},{"direction":2,"properties":{},"time":1016.01586666666753,"type":"","holdlength":0},{"direction":0,"properties":{},"time":1018.0158666666664,"type":"","holdlength":0},{"direction":3,"properties":{},"time":1020.01586666666685,"type":"","holdlength":0},{"direction":3,"properties":{},"time":1156.01586666666731,"type":"","holdlength":0},{"direction":2,"properties":{},"time":1158.0158666666664,"type":"","holdlength":0},{"direction":0,"properties":{},"time":1162.01586666666753,"type":"","holdlength":0},{"direction":1,"properties":{},"time":1164.01586666666617,"type":"","holdlength":0},{"direction":1,"properties":{},"time":1166.01586666666685,"type":"","holdlength":0},{"direction":0,"properties":{},"time":1166.01586666666685,"type":"","holdlength":0},{"direction":3,"properties":{},"time":1168.01586666666731,"type":"","holdlength":1.99999999999988542},{"direction":1,"properties":{},"time":1172.01586666666685,"type":"","holdlength":0}],"character":1,"is_player":false}]
+[
+    {
+        "notes": [
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 240.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 256.015866666666625,
+                "type": "",
+                "holdlength": 10.9999999999999414
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 267.965866666666557,
+                "type": "",
+                "holdlength": 22.0000000000000107
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 292.015866666666454,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 296.015866666667478,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 300.015866666666966,
+                "type": "",
+                "holdlength": 2.99999999999998712
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 308.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 312.015866666666909,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 316.015866666666341,
+                "type": "",
+                "holdlength": 5.99999999999998934
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 324.015866666666795,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 326.015866666667364,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 328.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 332.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 334.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 336.015866666666795,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 340.015866666666227,
+                "type": "",
+                "holdlength": 6.99999999999998
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 348.015866666666682,
+                "type": "",
+                "holdlength": 2.99999999999998712
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 352.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 356.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 358.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 362.325122222222092,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 364.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 368.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 372.015866666666568,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 376.015866666666057,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 380.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 452.015866666666795,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 460.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 468.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 470.015866666666682,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 472.01586666666725,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 476.015866666666682,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 478.015866666667193,
+                "type": "",
+                "holdlength": 0.999999999999998335
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 484.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 486.015866666666113,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 492.015866666666057,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 494.015866666666568,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 500.015866666666568,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 502.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 508.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 510.015866666666057,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 516.015866666665943,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 524.015866666666511,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 530.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 536.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 542.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 548.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 550.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 556.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 558.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 564.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 566.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 572.015866666666284,
+                "type": "",
+                "holdlength": 5.00000000000004707
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 580.015866666666739,
+                "type": "",
+                "holdlength": 1.00000000000005529
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 588.015866666667193,
+                "type": "",
+                "holdlength": 2.99999999999993916
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 594.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 598.015866666666625,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 600.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 604.015866666666625,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 608.01586666666617,
+                "type": "",
+                "holdlength": 3.00000000000005
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 608.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 616.015866666666625,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 618.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 620.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 622.015866666666625,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 632.015866666665943,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 634.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 636.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 638.015866666665943,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 642.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 644.015866666667534,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 646.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 648.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 648.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 652.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 658.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 660.015866666667,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 664.015866666666398,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 668.015866666667421,
+                "type": "",
+                "holdlength": 5.00000000000004707
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 668.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 676.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 680.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 684.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 688.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 696.015866666666739,
+                "type": "",
+                "holdlength": 3.99999999999999334
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 696.015866666666739,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 706.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 708.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 710.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 712.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 716.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 722.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 724.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 728.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 732.015866666666625,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 736.015866666666,
+                "type": "",
+                "holdlength": 0.999999999999939604
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 740.01586666666708,
+                "type": "",
+                "holdlength": 0.999999999999939604
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 744.015866666666511,
+                "type": "",
+                "holdlength": 1.00000000000005529
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 748.015866666666,
+                "type": "",
+                "holdlength": 1.00000000000005529
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 748.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 752.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 752.01586666666708,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 756.015866666666511,
+                "type": "",
+                "holdlength": 1.00000000000005529
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 760.015866666666,
+                "type": "",
+                "holdlength": 1.00000000000005529
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 772.015866666667534,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 778.015866666667534,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 782.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 787.34920000000011,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 792.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 800.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 808.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 816.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 832.015866666667193,
+                "type": "",
+                "holdlength": 0.999999999999939604
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 842.015866666666625,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 846.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 851.3491999999992,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 856.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 864.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 872.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 876.015866666665943,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 880.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 884.015866666666511,
+                "type": "",
+                "holdlength": 5.99999999999998934
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 900.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 902.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 904.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 906.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 910.015866666667,
+                "type": "",
+                "holdlength": 2.99999999999993916
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 916.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 920.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 922.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 924.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 932.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 934.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 936.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 938.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 942.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 944.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 946.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 948.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 950.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 952.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 954.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 956.01586666666617,
+                "type": "",
+                "holdlength": 0.999999999999939604
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 960.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 962.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 964.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 992.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 994.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 996.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 1028.01586666666753,
+                "type": "",
+                "holdlength": 3.00000000000005
+            }
+        ],
+        "character": 0,
+        "is_player": true
+    },
+    {
+        "notes": [
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 248.015866666666113,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 384.015866666666568,
+                "type": "",
+                "holdlength": 5.00000000000004707
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 391.349200000000224,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 404.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 408.015866666666454,
+                "type": "",
+                "holdlength": 2.99999999999998712
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 412.015866666667478,
+                "type": "",
+                "holdlength": 2.99999999999998712
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 416.015866666666966,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 420.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 424.015866666667478,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 428.015866666666909,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 436.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 436.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 440.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 440.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 444.015866666666284,
+                "type": "",
+                "holdlength": 5.99999999999998934
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 452.015866666666795,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 452.015866666666795,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 456.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 456.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 460.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 460.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 464.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 466.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 468.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 470.015866666666682,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 472.01586666666725,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 476.015866666666682,
+                "type": "",
+                "holdlength": 3.00000000000005
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 476.015866666666682,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 484.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 488.015866666666682,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 490.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 492.015866666666057,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 494.015866666666568,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 496.015866666667137,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 498.015866666666057,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 500.015866666666568,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 502.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 504.015866666666057,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 508.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 508.01586666666708,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 516.015866666665943,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 524.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 530.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 536.015866666666398,
+                "type": "",
+                "holdlength": 0.999999999999939604
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 542.015866666666398,
+                "type": "",
+                "holdlength": 0.999999999999939604
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 548.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 556.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 564.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 566.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 572.015866666666284,
+                "type": "",
+                "holdlength": 5.00000000000004707
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 580.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 588.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 594.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 598.015866666666625,
+                "type": "",
+                "holdlength": 0.999999999999939604
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 604.015866666666625,
+                "type": "",
+                "holdlength": 0.999999999999939604
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 614.01586666666617,
+                "type": "",
+                "holdlength": 3.00000000000005
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 624.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 628.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 672.015866666667,
+                "type": "",
+                "holdlength": 1.00000000000005529
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 674.015866666667421,
+                "type": "",
+                "holdlength": 2.00000000000010747
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 677.3492,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 680.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 684.015866666666852,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 688.015866666666284,
+                "type": "",
+                "holdlength": 6.99999999999993161
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 696.015866666666739,
+                "type": "",
+                "holdlength": 7.00000000000004263
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 736.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 740.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 744.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 748.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 752.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 756.015866666666511,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 760.015866666666,
+                "type": "",
+                "holdlength": 3.99999999999999334
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 796.015866666667421,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 804.015866666666284,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 812.015866666666852,
+                "type": "",
+                "holdlength": 1.00000000000005529
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 820.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 822.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 824.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 826.015866666667307,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 828.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 830.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 840.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 846.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 850.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 860.015866666666625,
+                "type": "",
+                "holdlength": 2.00000000000010747
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 868.01586666666708,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 876.015866666665943,
+                "type": "",
+                "holdlength": 1.99999999999999667
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 884.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 886.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 888.015866666667534,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 890.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 892.015866666667,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 894.015866666667534,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 896.015866666666398,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 900.015866666667421,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 928.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 932.015866666666284,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 956.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 960.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 964.015866666666739,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 966.015866666667193,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 968.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 970.015866666666625,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 974.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 974.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 978.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 982.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 986.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 988.015866666666511,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 992.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 996.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 998.015866666666,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 1000.01586666666651,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 1002.01586666666708,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 1006.01586666666651,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 1010.01586666666753,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 1012.01586666666651,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 1014.01586666666697,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 1016.01586666666753,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 1018.0158666666664,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 1020.01586666666685,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 1156.01586666666731,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 2,
+                "properties": {},
+                "time": 1158.0158666666664,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 1162.01586666666753,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 1164.01586666666617,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 1166.01586666666685,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 0,
+                "properties": {},
+                "time": 1166.01586666666685,
+                "type": "",
+                "holdlength": 0
+            },
+            {
+                "direction": 3,
+                "properties": {},
+                "time": 1168.01586666666731,
+                "type": "",
+                "holdlength": 1.99999999999988542
+            },
+            {
+                "direction": 1,
+                "properties": {},
+                "time": 1172.01586666666685,
+                "type": "",
+                "holdlength": 0
+            }
+        ],
+        "character": 1,
+        "is_player": false
+    }
+]

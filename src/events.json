@@ -1,1 +1,212 @@
-[{"properties":{"character":1},"time":-0.001,"type":"set_camera_target"}]
+[
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": -0.001,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": -1
+        },
+        "time": 0,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 15.1260504201681,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 15.620277953,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 16.1259891456583,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 24.1958132203485,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": -1
+        },
+        "time": 28.4768186583906,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 32.5210084033613,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 34.537815126050404,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 34.537815126050404,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 34.537815126050404,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 36.5546218487395,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": -1
+        },
+        "time": 38.3193277310924,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 40.3350477085316044,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 42.3529411764706,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 44.3614898860056,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": -1
+        },
+        "time": 46.3865546218487,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 48.655462184874,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 50.1680672268907,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 50.4174152511355,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 50.6695160914717,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 50.9216169318078045,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 51.173717772144,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 51.4258186124801,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 51.6731438788987,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": -1
+        },
+        "time": 52.4369747899159,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 56.7226890756303,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 60.5042016806722955,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 0
+        },
+        "time": 64.5378151260504,
+        "type": "set_camera_target"
+    },
+    {
+        "properties": {
+            "character": 1
+        },
+        "time": 72.6050420168067,
+        "type": "set_camera_target"
+    }
+]
