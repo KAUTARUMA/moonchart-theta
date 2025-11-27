@@ -4,3 +4,4 @@ test/
 dump/
 .vscode/
 bin/
+test.json
